@@ -18,6 +18,11 @@ public class Ex4 {
         poupanca.infoContaPoupanca();
         corrente.infoContaCorrente();
 
+        poupanca.saque(1000);
+        poupanca.infoContaPoupanca();
+
+        corrente.saque(1000);
+        corrente.infoContaCorrente();
 
         sc.close();
 
