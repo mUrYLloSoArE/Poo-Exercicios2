@@ -9,6 +9,9 @@ public class Livro extends Produto {
         super(nome, preco);
         this.autor = autor;
     }
+    public Livro() {
+
+    }
 
     @Override
     public void addProduto() {

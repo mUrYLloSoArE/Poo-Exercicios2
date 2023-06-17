@@ -11,9 +11,9 @@ public class Ex1 {
         Scanner sc = new Scanner(System.in);
 
 
-        Produto cd = new Cd("",0.0,0);
-        Produto dvd = new Dvd("",0.0,0);
-        Produto livro = new Livro("",0.0,"");
+        Produto cd = new Cd();
+        Produto dvd = new Dvd();
+        Produto livro = new Livro();
 
         boolean rodando=true;
         int limite = 0;

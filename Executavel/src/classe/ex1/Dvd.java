@@ -10,6 +10,9 @@ public class Dvd extends  Produto{
         super(nome, preco);
         this.duracao = duracao;
     }
+    public Dvd() {
+
+    }
 
     @Override
     public void addProduto() {

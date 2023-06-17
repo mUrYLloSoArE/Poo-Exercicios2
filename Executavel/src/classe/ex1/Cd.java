@@ -10,6 +10,10 @@ public class Cd extends Produto{
         super(nome, preco);
         this.nFaixas = nFaixas;
     }
+
+    public Cd() {
+
+    }
     @Override
     public void addProduto() {
         Scanner sc = new Scanner(System.in);
